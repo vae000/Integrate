@@ -23,7 +23,7 @@ function App() {
 
         {/* Right Sidebar */}
         <aside className="bg-gray-200 w-1/4 p-4">
-          <h2 className="text-xl">Right Sidebar</h2>
+          <h2 className="text-xl">Right ---</h2>
         </aside>
       </div>
     </div>
