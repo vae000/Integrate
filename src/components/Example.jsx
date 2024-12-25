@@ -26,7 +26,7 @@ function Example() {
           <img className="size-10 rounded-full" src={person.image} alt="" />
           <div className="ml-3">
             <p className="text-sm font-medium text-gray-900">{person.name}</p>
-            <p className="text-sm text-gray-500">{person.email}</p>
+            <p className="text-red-500">{person.email}</p>
           </div>
         </li>
       ))}
