@@ -1,6 +1,6 @@
 
 import Header from './components/Header2';
-import Content from './components/Content';
+import Content from './components/Content2';
 
 function App() {
   return (

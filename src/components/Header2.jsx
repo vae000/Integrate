@@ -1,29 +1,33 @@
-
-
 function Header2() {
   return (
     <div className="text-sm text-gray-900">
       <nav className="flex items-center px-4 py-3 bg-gray-900 justify-between">
         <div className="text-white flex items-center space-x-3">
-            <a className="w-6 fill-current hover:text-gray-200">
+          <a className="w-6 fill-current hover:text-gray-200">
             <svg
-            className="w-6"
-            aria-hidden="true"
-            viewBox="0 0 24 24"
-            version="1.1"
-            data-view-component="true"
-          >
-            <path d="M12.5.75C6.146.75 1 5.896 1 12.25c0 5.089 3.292 9.387 7.863 10.91.575.101.79-.244.79-.546 0-.273-.014-1.178-.014-2.142-2.889.532-3.636-.704-3.866-1.35-.13-.331-.69-1.352-1.18-1.625-.402-.216-.977-.748-.014-.762.906-.014 1.553.834 1.769 1.179 1.035 1.74 2.688 1.25 3.349.948.1-.747.402-1.25.733-1.538-2.559-.287-5.232-1.279-5.232-5.678 0-1.25.445-2.285 1.178-3.09-.115-.288-.517-1.467.115-3.048 0 0 .963-.302 3.163 1.179.92-.259 1.897-.388 2.875-.388.977 0 1.955.13 2.875.388 2.2-1.495 3.162-1.179 3.162-1.179.633 1.581.23 2.76.115 3.048.733.805 1.179 1.825 1.179 3.09 0 4.413-2.688 5.39-5.247 5.678.417.36.776 1.05.776 2.128 0 1.538-.014 2.774-.014 3.162 0 .302.216.662.79.547C20.709 21.637 24 17.324 24 12.25 24 5.896 18.854.75 12.5.75Z"></path>
-          </svg>
-            </a>
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              className="w-6"
+            >
+              <path d="M11.7 2.805a.75.75 0 0 1 .6 0A60.65 60.65 0 0 1 22.83 8.72a.75.75 0 0 1-.231 1.337 49.948 49.948 0 0 0-9.902 3.912l-.003.002c-.114.06-.227.119-.34.18a.75.75 0 0 1-.707 0A50.88 50.88 0 0 0 7.5 12.173v-.224c0-.131.067-.248.172-.311a54.615 54.615 0 0 1 4.653-2.52.75.75 0 0 0-.65-1.352 56.123 56.123 0 0 0-4.78 2.589 1.858 1.858 0 0 0-.859 1.228 49.803 49.803 0 0 0-4.634-1.527.75.75 0 0 1-.231-1.337A60.653 60.653 0 0 1 11.7 2.805Z" />
+              <path d="M13.06 15.473a48.45 48.45 0 0 1 7.666-3.282c.134 1.414.22 2.843.255 4.284a.75.75 0 0 1-.46.711 47.87 47.87 0 0 0-8.105 4.342.75.75 0 0 1-.832 0 47.87 47.87 0 0 0-8.104-4.342.75.75 0 0 1-.461-.71c.035-1.442.121-2.87.255-4.286.921.304 1.83.634 2.726.99v1.27a1.5 1.5 0 0 0-.14 2.508c-.09.38-.222.753-.397 1.11.452.213.901.434 1.346.66a6.727 6.727 0 0 0 .551-1.607 1.5 1.5 0 0 0 .14-2.67v-.645a48.549 48.549 0 0 1 3.44 1.667 2.25 2.25 0 0 0 2.12 0Z" />
+              <path d="M4.462 19.462c.42-.419.753-.89 1-1.395.453.214.902.435 1.347.662a6.742 6.742 0 0 1-1.286 1.794.75.75 0 0 1-1.06-1.06Z" />
+            </svg>
+          </a>
 
-            <div className="relative">
-                <input type="text" className="rounded bg-gray-900 border border-gray-600 placeholder-gray-400  w-72 px-3 py-1" placeholder="search or jump to ... "/>
-                <div className="absolute top-0 right-0 flex items-center h-full">
-<div className="border border-gray-400 rounded text-xs text-gray-400 px-2 mr-2">/</div>
-                </div>
+          <div className="relative">
+            <input
+              type="text"
+              className="rounded bg-gray-900 border border-gray-600 placeholder-gray-400  w-72 px-3 py-1"
+              placeholder="search or jump to ... "
+            />
+            <div className="absolute top-0 right-0 flex items-center h-full">
+              <div className="border border-gray-400 rounded text-xs text-gray-400 px-2 mr-2">
+                /
+              </div>
             </div>
-
+          </div>
         </div>
         <div className="text-white">right</div>
       </nav>
