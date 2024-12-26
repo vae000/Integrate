@@ -1,5 +1,6 @@
 
 import Header from './components/Header2';
+import Content from './components/Content';
 
 function App() {
   return (
@@ -17,9 +18,7 @@ function App() {
         </aside>
 
         {/* Main Content */}
-        <main className="flex-1 p-4">
-          <h2 className="text-xl">Main Content</h2>
-        </main>
+        <Content/>
 
         {/* Right Sidebar */}
         <aside className="bg-gray-200 w-1/4 p-4">
